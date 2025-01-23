@@ -1,0 +1,165 @@
+.main-give {
+  // background-color: #FFFFFF;
+  margin-top: 110px;
+  overflow: hidden;
+
+  .seccard_hadng {
+    text-align: start;
+    /* margin-bottom: 45px; */
+    display: flex;
+    justify-content: flex-start;
+
+    h3.cchoose {
+      font-family: "Archivo";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 38px;
+      text-align: center;
+      color: #ffffff;
+      padding-bottom: 22px;
+    }
+
+    p.accusantium {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+
+  .all-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 5px;
+    gap: 29px;
+    flex-wrap: wrap;
+    // background: #FFFFFF;
+    // box-shadow: 0px 10px 50px #0000000d;
+    // margin-top: -150px;
+
+    .brdr-card {
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      overflow: hidden;
+    }
+
+    .main-card {
+      display: flex;
+      flex-direction: column;
+      width: 375.507px;
+      height: 285.41px;
+      padding: 34.406px 21.229px 34.003px 21.278px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      background-color: transparent;
+      gap: 21px;
+      background: rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(2px);
+
+      &:hover {
+        border-radius: 20px;
+        background: linear-gradient(90deg, #1e1cb0 0%, #00c9ff 100%);
+        backdrop-filter: blur(2px);
+      }
+    }
+
+    .main-card {
+      //   img {
+      //     margin-bottom: 30px;
+      //   }
+      h6 {
+        color: #fff;
+        text-align: center;
+        font-family: Tbold;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      p {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 25.2px */
+      }
+    }
+
+    .line {
+      margin: 0 55px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-give .all-cards .main-card {
+    // height: 450px;
+  }
+}
+
+@media (max-width: 991px) {
+  .main-give .all-cards .main-card {
+    width: 100%;
+
+    gap: 29px;
+    // padding: 40px 20px;
+  }
+
+  .main-give {
+    margin-top: 70px;
+  }
+
+  .main-give .all-cards {
+    flex-wrap: wrap;
+    padding: 40px 0px;
+  }
+
+  .main-give .line {
+    display: none !important;
+  }
+
+  .main-give .all-cards .main-card {
+    // margin-bottom: 30px;
+    // display: flex;
+    // justify-self: center;
+    // align-items: center;
+    // flex-direction: column;
+  }
+
+  .main-give .all-cards .main-card p {
+    text-align: center;
+  }
+
+  .main-give .all-cards .main-card {
+    // height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-give .all-cards {
+    margin-top: unset;
+    margin-top: 24px;
+  }
+
+  .main-give .all-cards {
+    // padding: 40px 16px !important;
+  }
+
+  .main-give .seccard_hadng h3.cchoose {
+    font-size: 28px;
+    line-height: 30px;
+
+    padding-bottom: 22px;
+  }
+}

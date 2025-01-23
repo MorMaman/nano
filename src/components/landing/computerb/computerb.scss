@@ -1,0 +1,263 @@
+.main-Computerb {
+  // background-color: #FFFFFF;
+  padding-top: 50px;
+  overflow: hidden;
+  margin-bottom: 26px;
+  .aboutusimgg {
+    position: relative;
+    img.img-fluid.left-img.aaaboutus_imgs {
+      position: absolute;
+      top: 0;
+      right: 0px;
+      left: 33px;
+      width: 85%;
+    }
+  }
+  .rosdsdsdw {
+    .toptabshndg {
+      display: flex;
+      /* width: 368px; */
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+      margin-bottom: 77px;
+      .tabsshndg {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      h5.ourindustury {
+        color: #00c9ff;
+        font-family: Poppins;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+    }
+    .tabsdiv {
+      .tabsslineouter {
+        display: flex;
+        padding: 13px 12px;
+        /* flex-direction: column; */
+        align-items: flex-start;
+        gap: 10px;
+        justify-content: space-between;
+        /* align-self: stretch; */
+        width: 100%;
+        margin-bottom: 77px;
+        border: 1px solid #8d8d8d;
+        border-radius: 180px;
+
+        a.nav-link {
+          display: flex;
+          padding: 20px 40px;
+          justify-content: center;
+          align-items: center;
+          gap: 32px;
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 100%; /* 24px */
+          white-space: nowrap;
+        }
+      }
+      a.nav-link.active {
+        border-radius: 110px;
+        background: linear-gradient(90deg, #1e1cb0 0%, #00c9ff 100%);
+      }
+    }
+    ul.nav.nav-tabs {
+      display: flex;
+      padding: 13px 0px;
+      /* flex-direction: column; */
+      align-items: flex-start;
+      gap: 10px;
+      justify-content: space-between;
+      align-self: stretch;
+    }
+  }
+  .right {
+    p.aboutvv {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 17px;
+      text-transform: uppercase;
+
+      /* Primary Blue */
+
+      color: #1777e2;
+      padding-bottom: 20px;
+    }
+    h2.sit {
+      color: #fff;
+      font-family: Tbold;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    h5.tempore {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 27px;
+      color: #ffffff;
+      padding-bottom: 22px;
+    }
+
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 120%;
+      color: #000a23;
+      margin-bottom: 28px;
+    }
+    p {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 25.2px */
+    }
+  }
+}
+.logobttnnss {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  align-self: stretch;
+  justify-content: space-between;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  flex-wrap: wrap;
+  .logobtnnss {
+    display: flex;
+    padding: 32px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(5px);
+    align-self: stretch;
+    &:hover {
+      border-radius: 15px;
+      border: 1px solid #041f26;
+      background: linear-gradient(90deg, #1e1cb0 0%, #00c9ff 100%);
+      backdrop-filter: blur(5px);
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .main-Computerb .rosdsdsdw .tabsdiv .tabsslineouter {
+    padding: 10px 12px;
+    margin-bottom: 50px;
+    border-radius: 180px;
+    border: 1px solid #8d8d8d;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .main-Computerb .rosdsdsdw .tabsdiv .tabsslineouter a.nav-link {
+    padding: 20px 15px;
+
+    font-size: 14px;
+  }
+  .main-Computerb .rosdsdsdw .toptabshndg {
+    margin-bottom: 50px;
+  }
+  .main-Computerb .rosdsdsdw .toptabshndg .tabsshndg {
+    font-size: 24px;
+  }
+  .main-Computerb .rosdsdsdw .toptabshndg h5.ourindustury {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .main-Computerb .order {
+    order: 2 !important;
+    text-align: start;
+    margin-top: 50px;
+  }
+  .main-Computerb .right h2.sit {
+    text-align: start;
+    color: #fff;
+
+    font-size: 30px;
+
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+  .main-Computerb .right p {
+    text-align: start;
+  }
+  .main-Computerb {
+    padding: 40px 0px;
+  }
+}
+@media (max-width: 600px) {
+  .main-Computerb .right h5.tempore {
+    text-align: start;
+  }
+  .main-Computerb .right p.aboutvv {
+    margin-top: unset;
+  }
+  .main-Computerb .right h2 {
+    text-align: start;
+    font-size: 28px !important;
+    line-height: 30px;
+    padding-bottom: 22px;
+    margin-bottom: unset !important;
+  }
+
+  .main-Computerb .right h5.tempore {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 430px) {
+  .main-Computerb .order {
+    order: 2 !important;
+  }
+  .main-Computerb .right {
+    padding-bottom: unset;
+  }
+  .main-Computerb .right p {
+    text-align: start;
+  }
+}
+
+@media (max-width: 1030px) {
+  .main-Computerb .right p.aboutvv {
+    margin-top: 152px;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-Computerb .right h5.tempore {
+    // text-align: center;
+  }
+  .main-Computerb .right p.aboutvv {
+    margin-top: unset;
+  }
+}

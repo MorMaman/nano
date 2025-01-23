@@ -1,0 +1,115 @@
+.roadmaps {
+  // margin-top: 140px;
+  overflow: hidden;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../../../Assets/commingsoon22.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px auto;
+  .maindivcomg {
+    text-align: center;
+  }
+  .comingtext {
+    color: #fff;
+    text-align: center;
+    font-size: 52.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 62.5px; /* 119.048% */
+    max-width: 802px;
+    margin: 0 auto 17px;
+  }
+  p.nnneewwmc {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+  }
+  button.cantaussuss {
+    padding: 17.5px 22.5px;
+
+    gap: 12.5px;
+    border-radius: 6.25px;
+    background: #fff;
+    color: #2a90fe;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid transparent;
+    margin-top: 53px;
+  }
+
+  p.inventorexx {
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #bababa;
+    padding-top: 22px;
+    padding-bottom: 63px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .roadmap {
+      margin-top: unset;
+    }
+
+    .container {
+      margin: 0;
+    }
+
+    .entry:nth-child(even) .content,
+    .entry:nth-child(odd) .content {
+      text-align: left;
+      transform: translate(60%, -9px);
+    }
+
+    .entry:nth-child(even) .time,
+    .entry:nth-child(odd) .time {
+      transform: translate(-130%, -48%);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .roadmap {
+    margin-top: unset;
+  }
+  .roadmap .timeline__heading {
+    // margin-top: 84px !important;
+  }
+  .roadmap .timeline__title {
+    text-align: start;
+  }
+}
+@media (max-width: 800px) {
+  .roadmaps p.nnneewwmc {
+    padding-top: 18px;
+  }
+  .roadmaps .comingtext {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 36.4px */
+  }
+  .roadmap {
+    margin-top: unset;
+  }
+}
