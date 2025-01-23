@@ -49,9 +49,7 @@ const Computerb = () => {
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item className="tabitemms">
-                        <Nav.Link eventKey="link-5">
-                          Web3 Documentation
-                        </Nav.Link>
+                        <Nav.Link eventKey="link-5">Consulting</Nav.Link>
                       </Nav.Item>
                     </Nav>
                   </div>
